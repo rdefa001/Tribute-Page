@@ -1,0 +1,171 @@
+* {
+    border-box: box-sizing;
+}
+
+body {
+    background-color: #00ffd2;
+    font-family: Arial, heveltica, sans-serif;
+    margin: 10px;
+    color: #fff
+}
+
+#main {
+    background-color: #0a0f4a;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#title {
+    font-size: 50px;
+    color: #fff
+}
+
+#img-div {
+    display: float;
+    background-color: #fff;
+    color: black;
+    height: 550px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 0;
+    position: relative;
+}
+
+#image {
+    float: left;
+    margin: 60px;
+    width: 600px;
+    border-radius: 4px;
+}
+
+h4 {
+    position: absolute;
+    top: 200px;
+    left: 49%;
+    font-size: 40px;
+    color: #b7b7bb
+}
+
+#img-caption {
+    position: absolute;
+    top: 500px;
+    left: 60px;
+}
+
+a {
+    color: PaleTurquoise;
+}
+
+.div-1 {
+    background-color: #00ffd2;
+    padding: 30px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-2 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-3 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-4 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-5 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-6 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-7 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-8 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-9 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-10 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-11 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.div-12 {
+    background-color: #00ffd2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+#tribute-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align:center;
+    font-size: 18px;
+    color: #0a0f4a;
+}
+
+@media (max-width: 600px) {
+    #tribute-info {
+        display: block;
+        width: 100%;
+        grid-row-gap: 5px;
+        border: 2px solid #0a0f4a;
+    }
+
+    #img-div {
+        height: 330px
+    }
+
+    #image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin: 0;
+    }
+
+    h4 {
+        visibility: hidden;
+    }
+
+    #img-caption {
+        position: absolute;
+        top: 270px;
+        left: 20px;
+    }
