@@ -141,6 +141,15 @@ a {
 }
 
 @media (max-width: 600px) {
+    
+    * {
+   max-width: 100%;
+}
+
+body {
+  max-width: 100%;
+}
+    
     #tribute-info {
         display: block;
         max-width: 100%;
