@@ -140,7 +140,7 @@ a {
     color: #0a0f4a;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     
     * {
    max-width: 100%;
